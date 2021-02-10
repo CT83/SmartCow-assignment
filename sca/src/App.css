@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.section {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+.title {
+  flex-grow: 0.5;
+  display: flex;
+  align-items: center;
+}
+.title h1{
+  color:  #1687a7;
+}
+.btn-content {
+  flex-grow: 1;
+}
+.btn-primary {
+  width: 250px;
+  height: 250px;
+  background-color: #1687a7 !important;
+  margin: 0 25px !important;
+  border-radius: 50% !important;
+}
+.btn-primary .MuiButton-label{
+  font-size: medium;
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+}
+.tsk2{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.slider{
+  width : 90%;
+  margin-top : 20px
+}
+.ssli-cnt{
+  display: flex !important;
+  justify-content: center;
+}
+.ssli-cnt img {
+  width: 500px;
+  height: 400px;
+}
+.img-text {
+  color: white;
+  mix-blend-mode: difference;
+  position: fixed;
+  top: 120px;
+}
+
